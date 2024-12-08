@@ -117,8 +117,7 @@
                             <div class="date-list-container">
                                 <div class="task-info-container"><span class="bold-info-text">Deadline: </span><span><?php echo htmlspecialchars($task['deadline_at']); ?></span><span> </span></div>
                                 <div class="task-info-container"><span class="bold-info-text">Created: </span><span><?= $task['created_at']; ?></span></div>
-                                <?php
-                                if ($task['list_id']) : ?>
+                                <?php if ($task['list_id']) : ?>
                                     <div class="task-info-container"><span class="bold-info-text">Belongs to list: </span><span><?php echo printListForTask($task['id'], $database) ?></span></div>
                                 <?php endif; ?>
                             </div>

@@ -3,6 +3,7 @@
 # Task Force
 
 A simpel to-do app as a school project. You can clone this repo or visit https://task-force.sofiadersen.com/ 
+For Wunderlist+ visit and clone: https://github.com/sdersen/task-force/pull/4
 
 The app allows the user to:
 
@@ -23,6 +24,9 @@ The app allows the user to:
 -   **Extra:**
 -   I'm able to remove a task from a list.
 -   I'm able to delete a user along with all their lists and tasks.
+
+
+# Wunderlist+
 
 # Features added from Wunderlist+:
 
